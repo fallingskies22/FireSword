@@ -34,6 +34,8 @@ javafx {
 }
 
 dependencies {
+    //导入jfoneix依赖，一个UI组件。
+    implementation('com.jfoenix:jfoenix:9.0.10')
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
@@ -53,4 +55,17 @@ jlink {
 
 jlinkZip {
     group = 'distribution'
+}
+
+
+//解决使用JFXTabPane时报错，
+//Caused by: java.lang.IllegalAccessError: class com.jfoenix.skins.JFXTabPaneSkin (in module com.jfoenix) cannot access class com.sun.javafx.scene.control.behavior.TabPaneBehavior (in module javafx.controls) because module javafx.controls does not export com.sun.javafx.scene.control.behavior to module com.jfoenix
+run {
+    jvmArgs = [
+            "--add-exports=javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix",
+            "--add-exports=javafx.controls/com.sun.javafx.scene.control=com.jfoenix",
+            "--add-exports=javafx.base/com.sun.javafx.binding=com.jfoenix",
+            "--add-exports=javafx.graphics/com.sun.javafx.stage=com.jfoenix",
+            "--add-exports=javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix",
+    ]
 }

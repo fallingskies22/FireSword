@@ -1,0 +1,45 @@
+/*设置按键样式*/
+.button{
+    -fx-text-fill: #000;
+    -fx-background-color: lightgrey;
+    -fx-font-size: 16;
+}
+
+/*鼠标悬停时，样式
+ * 右侧蓝色边框
+*/
+.button:hover{
+    -fx-background-color: white;
+    -fx-border-color: cornflowerblue;
+    -fx-border-width: 0 5 0 0;
+}
+
+/*选中按键时，样式*/
+.button:focused{
+    -fx-background-color: white;
+    -fx-border-color: cornflowerblue;
+    -fx-border-width: 0 5 0 0;
+}
+
+.tab-label{
+    -fx-text-fill: #383838;
+    -fx-background-color: white;
+    -fx-font-size: 16;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #1e90ff;
+}
+
+#selectButton{
+    -fx-background-color: lightgrey;
+    -fx-border-width: 0 1 0 0;
+}
+
+/* 修改Tab中背景颜色*/
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #fff;
+}
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #fff;
+}
