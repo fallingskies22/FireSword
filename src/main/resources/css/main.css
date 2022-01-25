@@ -34,6 +34,7 @@
 #selectButton{
     -fx-background-color: lightgrey;
     -fx-border-width: 0 1 0 0;
+    -fx-border-color: darkgrey;
 }
 
 /* 修改Tab中背景颜色*/

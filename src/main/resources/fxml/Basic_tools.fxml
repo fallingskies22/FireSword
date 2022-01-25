@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.firesword.controller.Basic_toolsController">
+   <children>
+      <VBox fx:id="selectButton" layoutY="27.0" prefHeight="648.0" prefWidth="103.0">
+         <children>
+            <JFXButton accessibleText="shell" mnemonicParsing="false" prefHeight="67.0" prefWidth="104.0" text="shell" />
+            <JFXButton accessibleText="http" mnemonicParsing="false" prefHeight="67.0" prefWidth="104.0" text="http" />
+            <JFXButton accessibleText="cehi" prefHeight="71.0" prefWidth="103.0" text="cehi" />
+            <JFXButton accessibleText="Basic_tools" prefHeight="71.0" prefWidth="103.0" text="hello" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+            <JFXButton prefHeight="71.0" prefWidth="103.0" />
+         </children>
+      </VBox>
+      <AnchorPane fx:id="content" layoutX="103" layoutY="0" prefHeight="648.0" prefWidth="1052.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></AnchorPane>
+   </children>
+</AnchorPane>

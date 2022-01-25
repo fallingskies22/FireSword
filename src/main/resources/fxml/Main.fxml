@@ -21,9 +21,10 @@
       </MenuBar>
       <VBox fx:id="selectButton" layoutY="27.0" prefHeight="648.0" prefWidth="103.0">
          <children>
-            <JFXButton accessibleText="Shiro" mnemonicParsing="false" prefHeight="67.0" prefWidth="104.0" text="Shiro" />
-            <JFXButton accessibleText="Weblogic" prefHeight="71.0" prefWidth="103.0" text="Weblogic" />
-            <JFXButton accessibleText="Others" prefHeight="71.0" prefWidth="103.0" text="Thinkphp" />
+            <JFXButton accessibleText="Basic_tools" mnemonicParsing="false" prefHeight="67.0" prefWidth="104.0" text="基础工具" />
+            <JFXButton accessibleText="Others" mnemonicParsing="false" prefHeight="67.0" prefWidth="104.0" text="Shiro" />
+            <JFXButton accessibleText="123" prefHeight="71.0" prefWidth="103.0" text="Weblogic" />
+            <JFXButton accessibleText="123" prefHeight="71.0" prefWidth="103.0" text="Thinkphp" />
             <JFXButton prefHeight="71.0" prefWidth="103.0" />
             <JFXButton prefHeight="71.0" prefWidth="103.0" />
             <JFXButton prefHeight="71.0" prefWidth="103.0" />
@@ -32,7 +33,7 @@
             <JFXButton prefHeight="71.0" prefWidth="103.0" />
          </children>
       </VBox>
-      <AnchorPane fx:id="content" layoutX="125.0" layoutY="28.0" prefHeight="648.0" prefWidth="1052.0">
+      <AnchorPane fx:id="content" layoutX="103.0" layoutY="0" prefHeight="648.0" prefWidth="1052.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets></AnchorPane>
